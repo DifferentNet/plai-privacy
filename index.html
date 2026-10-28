@@ -41,10 +41,10 @@
 <h2>1. Summary</h2>
 <ul>
   <li>The App does <strong>not require an account</strong> and does not ask you for your name, email, or other directly identifying information.</li>
-  <li>Your game progress is stored <strong>locally on your device</strong>. The only game data that leaves it is your leaderboard scores, and only through Google Play Games on Android or Apple Game Center on iPhone (see below).</li>
+  <li>Your game progress is stored <strong>locally on your device</strong>. The only game data that leaves it is your leaderboard scores and, on Android, your achievement progress, and only through Google Play Games on Android or Apple Game Center on iPhone (see below).</li>
   <li>The App shows ads through <strong>Google AdMob</strong>, which collects certain device data (including your advertising ID) to serve and measure ads.</li>
   <li>The App uses <strong>Google Analytics for Firebase</strong> to count app opens and sessions so we can see how the game is performing. This is aggregate usage measurement, not a profile of you.</li>
-  <li>On Android, if you have a <strong>Google Play Games</strong> profile, the App signs in to it so your best scores (biggest fish, longest chain, total stars and village age) can appear on the game's leaderboards. On iPhone, the same scores go to <strong>Apple Game Center</strong> if you are signed in to it.</li>
+  <li>On Android, if you have a <strong>Google Play Games</strong> profile, the App signs in to it so your best scores (biggest fish, longest chain, total stars and village age) can appear on the game's leaderboards and your in-game achievements on your Play Games profile. On iPhone, the same scores go to <strong>Apple Game Center</strong> if you are signed in to it.</li>
   <li>For users in the EEA, UK, and Switzerland, we present a <strong>consent prompt</strong> before personalized ads are used.</li>
 </ul>
 
@@ -57,12 +57,12 @@
   <li><strong>Ad interaction and usage data</strong> such as ads requested, shown, and rewarded.</li>
   <li><strong>App usage events</strong> such as first open, session start, screen views, and app removal.</li>
   <li><strong>Approximate (coarse) location</strong> derived from your IP address, as used by the advertising and analytics services.</li>
-  <li><strong>Leaderboard scores and your Play Games or Game Center profile</strong> (only if you use Google Play Games on Android or Game Center on iPhone): see section 6.</li>
+  <li><strong>Leaderboard scores, achievement progress (Android) and your Play Games or Game Center profile</strong> (only if you use Google Play Games on Android or Game Center on iPhone): see section 6.</li>
 </ul>
 <p>
   Your game data (level progress, in-game currency, settings) is stored locally on your device and
-  is not transmitted to us. The one exception is the four leaderboard scores described in section 6,
-  which are sent to Google Play Games (Android) or Apple Game Center (iPhone) when you are signed in to it.
+  is not transmitted to us. The one exception is the four leaderboard scores and, on Android, the achievement progress described in
+  section 6, which are sent to Google Play Games (Android) or Apple Game Center (iPhone) when you are signed in to it.
 </p>
 
 <h2>3. How Information Is Used</h2>
@@ -113,10 +113,10 @@
   for how Google processes this data.
 </p>
 
-<h2>6. Leaderboards (Google Play Games on Android, Game Center on iPhone)</h2>
+<h2>6. Leaderboards and achievements (Google Play Games on Android, Game Center on iPhone)</h2>
 <p>
   On Android, the App uses <strong>Google Play Games Services</strong>, a Google service, for its
-  leaderboards. If your Google account has a Play Games profile, the App signs in to it once you have
+  leaderboards and achievements. If your Google account has a Play Games profile, the App signs in to it once you have
   finished the tutorial. If you have no profile, nothing is created unless you open the leaderboards and
   choose to create one.
 </p>
@@ -128,9 +128,13 @@
   <li>your village's age.</li>
 </ul>
 <p>
-  Google receives these scores together with your <strong>Play Games profile</strong> (your gamer name
+  It also tells Google Play Games which of the game's achievements you have earned, and how far you are
+  toward the ones that count up (for example, puzzles completed or fish caught).
+</p>
+<p>
+  Google receives these scores and achievements together with your <strong>Play Games profile</strong> (your gamer name
   and avatar). We do not receive your email address or your Google account details. Who can see your
-  scores is decided by your profile's visibility setting in Google Play Games ("Only you", "Friends
+  scores and achievements is decided by your profile's visibility setting in Google Play Games ("Only you", "Friends
   only" or "Everyone"). The Play Games Services software also collects diagnostics and analytics data to
   keep itself stable. You can delete your Play Games data through your
   <a href="https://play.google.com/games/profile" target="_blank" rel="noopener">Play Games profile</a>
